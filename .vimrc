@@ -11,6 +11,7 @@ set visualbell
 set ai
 set tw=72
 
+call pathogen#infect()
 filetype plugin indent on
 
 syntax enable 
