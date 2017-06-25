@@ -27,7 +27,7 @@ Bundle 'nvie/vim-flake8'
 Bundle 'tristen/vim-sparkup'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 
 filetype plugin indent on
 
