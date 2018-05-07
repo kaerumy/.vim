@@ -13,21 +13,21 @@ set tw=72
 
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
-
+call vundle#begin()
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " My Bundles here:
 "
 " original repos on github
+Bundle 'vim-syntastic/syntastic'
 Bundle 'tpope/vim-fugitive'
-Bundle 'nvie/vim-flake8'
 Bundle 'tristen/vim-sparkup'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
+call vundle#end()
 
 filetype plugin indent on
 
@@ -43,11 +43,11 @@ let spell_executable = "aspell"
 let spell_language_list  = "en_GB"
 highlight SpellErrors ctermfg=Red guifg=Red cterm=underline gui=underline term=reverse
 
-if executable('ag')
-        let g:unite_source_grep_command='ag'
-        let g:unite_source_grep_default_opts='--nocolor --nogroup --hidden'
-        let g:unite_source_grep_recursive_opt=''
-      elseif executable('ack')
-        let g:unite_source_grep_command='ack'
-        let g:unite_source_grep_recursive_opt=''
-endif
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
