@@ -24,10 +24,10 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'vim-syntastic/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tristen/vim-sparkup'
-Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
 Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on
