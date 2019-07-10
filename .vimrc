@@ -11,6 +11,8 @@ set visualbell
 set ai
 set tw=72
 
+set spelllang=en_gb
+
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -27,6 +29,7 @@ Bundle 'tristen/vim-sparkup'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'fatih/vim-go'
 call vundle#end()
 
 filetype plugin indent on
