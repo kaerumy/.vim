@@ -26,10 +26,11 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'vim-syntastic/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tristen/vim-sparkup'
-Bundle 'davidhalter/jedi-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'fatih/vim-go'
+Plugin 'fatih/vim-go'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 filetype plugin indent on
@@ -37,7 +38,7 @@ filetype plugin indent on
 syntax enable 
 
 color koehler
-set guifont=Source\ Code\ Pro\ 10
+set guifont=Source\ Code\ Pro\ 9
 
 set encoding=utf-8
 
