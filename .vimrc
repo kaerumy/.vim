@@ -14,25 +14,6 @@ set tw=72
 set spelllang=en_gb
 
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" let Vundle manage Vundle
-" required! 
-Plugin 'VundleVim/Vundle.vim'
-
-" My Bundles here:
-"
-" original repos on github
-Bundle 'vim-syntastic/syntastic'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tristen/vim-sparkup'
-Bundle 'scrooloose/nerdtree'
-Bundle 'ctrlpvim/ctrlp.vim'
-Plugin 'fatih/vim-go'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'Valloric/YouCompleteMe'
-call vundle#end()
-
 filetype plugin indent on
 
 syntax enable 
@@ -50,8 +31,3 @@ highlight SpellErrors ctermfg=Red guifg=Red cterm=underline gui=underline term=r
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
