@@ -1,1 +1,2 @@
 python-flake8
+cmake

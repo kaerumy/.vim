@@ -3,6 +3,8 @@
 
 Vim Profile
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+Plugins now loaded automatically in pack directory
 
-vim +PluginInstall +qall
+See requirements for installation
+
+YouCompleteMe requires compilation and Cmake
