@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/YouCompleteMe"]
 	path = pack/plugins/start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe
+[submodule "pack/plugins/start/poet-v"]
+	path = pack/plugins/start/poet-v
+	url = https://github.com/petobens/poet-v
