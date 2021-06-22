@@ -31,3 +31,5 @@ highlight SpellErrors ctermfg=Red guifg=Red cterm=underline gui=underline term=r
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+let g:ycm_python_binary_path = '/usr/bin/python3'
