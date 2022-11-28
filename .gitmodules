@@ -16,3 +16,9 @@
 [submodule "pack/plugins/start/poet-v"]
 	path = pack/plugins/start/poet-v
 	url = https://github.com/petobens/poet-v
+[submodule "pack/plugins/start/rust.vim"]
+	path = pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/plugins/preservim/tagbar"]
+	path = pack/plugins/preservim/tagbar
+	url = https://github.com/preservim/tagbar.git
