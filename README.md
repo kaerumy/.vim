@@ -5,6 +5,7 @@ Vim Profile
 
 Plugins now loaded automatically in pack directory
 
-See requirements for installation
-
-YouCompleteMe requires compilation and Cmake
+ 1. `git submodule update --init --recursive`
+ 2. debian deps `apt install flake8 pip3 cmake`
+ 3. user python packages `pip3 install --user pipenv poetry`
+ 3. YouCompleteMe requires compilation
