@@ -18,7 +18,7 @@ filetype plugin indent on
 
 syntax enable 
 
-color koehler
+colorscheme koehler
 set guifont=Source\ Code\ Pro\ 14
 
 set encoding=utf-8
