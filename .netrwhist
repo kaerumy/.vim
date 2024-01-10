@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/views'
+let g:netrw_dirhist_1='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/browser/templates'
+let g:netrw_dirhist_0='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/browser'
+let g:netrw_dirhist_9='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations'
+let g:netrw_dirhist_8='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/views'
+let g:netrw_dirhist_7='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/theme/scss'
+let g:netrw_dirhist_6='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/theme'
+let g:netrw_dirhist_5='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/theme/css'
+let g:netrw_dirhist_4='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/browser/templates'
+let g:netrw_dirhist_3='/home/kaeru/src/imap/src/imap.customizations/src/imap/customizations/browser'
