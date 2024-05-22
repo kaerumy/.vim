@@ -22,3 +22,6 @@
 [submodule "pack/plugins/preservim/tagbar"]
 	path = pack/plugins/preservim/tagbar
 	url = https://github.com/preservim/tagbar.git
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline

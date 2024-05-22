@@ -19,7 +19,7 @@ filetype plugin indent on
 syntax enable 
 
 colorscheme koehler
-set guifont=Source\ Code\ Pro\ 14
+set guifont=Source\ Code\ Pro\ 16
 
 set encoding=utf-8
 
@@ -32,4 +32,8 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+let g:ale_virtualtext_cursor = 'disabled'
+
 let g:ycm_python_binary_path = '/usr/bin/python3'
+
+let g:airline#extensions#ale#enabled = 1
