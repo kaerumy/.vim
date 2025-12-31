@@ -13,6 +13,8 @@ set tw=72
 
 set spelllang=en_gb
 
+inoremap <C-S-V> <C-R>+
+cnoremap <C-S-V> <C-R>+
 
 filetype plugin indent on
 
@@ -37,3 +39,6 @@ let g:ale_virtualtext_cursor = 'disabled'
 let g:ycm_python_binary_path = '/usr/bin/python3'
 
 let g:airline#extensions#ale#enabled = 1
+
+imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true
