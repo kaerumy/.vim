@@ -17,8 +17,11 @@ inoremap <C-S-V> <C-R>+
 cnoremap <C-S-V> <C-R>+
 
 filetype plugin indent on
-
 syntax enable 
+
+autocmd FileType html setlocal nowrap
+autocmd FileType xml setlocal nowrap
+
 
 colorscheme koehler
 set guifont=Source\ Code\ Pro\ 16
@@ -31,7 +34,6 @@ let spell_language_list  = "en_GB"
 highlight SpellErrors ctermfg=Red guifg=Red cterm=underline gui=underline term=reverse
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:ale_virtualtext_cursor = 'disabled'
