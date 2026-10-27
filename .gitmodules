@@ -10,9 +10,6 @@
 [submodule "pack/plugins/start/YouCompleteMe"]
 	path = pack/plugins/start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe
-[submodule "pack/plugins/start/poet-v"]
-	path = pack/plugins/start/poet-v
-	url = https://github.com/petobens/poet-v
 [submodule "pack/plugins/start/rust.vim"]
 	path = pack/plugins/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim
