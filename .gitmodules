@@ -22,3 +22,6 @@
 [submodule "pack/github/start/copilot.vim"]
 	path = pack/github/start/copilot.vim
 	url = https://github.com/github/copilot.vim.git
+[submodule "pack/plugins/start/vim-ai"]
+	path = pack/plugins/start/vim-ai
+	url = https://github.com/madox2/vim-ai

@@ -44,3 +44,13 @@ let g:airline#extensions#ale#enabled = 1
 
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
+
+" vim-ai: same model as the opencode session (home-aida/Qwen3.8-27B-GGUF)
+let s:ai_opts = {
+\  "endpoint_url": "http://aida.local:13305/v1/chat/completions",
+\  "model": "Qwen3.8-27B-GGUF",
+\  "auth_type": "none",
+\}
+let g:vim_ai_chat = { "options": s:ai_opts }
+let g:vim_ai_complete = { "options": s:ai_opts }
+let g:vim_ai_edit = { "options": s:ai_opts }
